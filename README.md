@@ -1,5 +1,16 @@
 # Countdown
 
+## My solution
+
+* I first started by refactoring the component, I rewrote the **class** component as a **function** and removed all the logic out of the component. This is a good practice, since now the new component can be easily tested, and its functionality can be tested separately.
+Another benefit of having the logic outside of the component is that it allows us to use that functionality in another component if necessary, avoiding duplicated code.
+
+* When it comes to CSS, I installed SASS. In a real project I would have created main classes for the general layout, avoiding having to type specific colors and sizes every time we add a new component/page. This also helps when it comes to layout changes because the change needs to happen only where the class was originally written.
+
+* For the design, I did minimal changes that have a big impact on the viewer. Just by increasing the size of the font, centering the container on the horizontal axis and adding a border with appropiate padding, I'm telling the user that what's inside that box is important, or it's the main focus.
+With more time, I would have edited the page as well and add more meaningful text, but for the sake of the challenge, I focused only on the specific component that needed some work.
+ 
+
 ## Improved countdown
 The below component was designed to count down the days until our CTO's birthday, but it still needs some work. How can you make the implementation better?
 
